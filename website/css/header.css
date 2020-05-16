@@ -1,0 +1,21 @@
+nav {
+    display: flex;
+    margin: var(--margin) var(--padding);
+}
+
+
+
+.logo {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--text-color);
+    font-weight: 600;
+    border: 0;
+    padding: 0;
+}
+
+.banner-top {
+    border: var(--border);
+    padding: var(--padding);
+    margin: 0 var(--padding);
+}

@@ -1,0 +1,24 @@
+
+footer {
+    padding: var(--padding) 0;
+    background-color: #000033;
+    text-align: center;
+}
+
+footer p {
+    margin-top: 0;
+}
+
+footer i {
+    color: #000033;
+}
+
+footer i:hover {
+    font-size: 1.15em;
+    transition: font-size 150ms ease-in-out;
+}
+
+footer a {
+    border: 0;
+    padding: 0;
+}

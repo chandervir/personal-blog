@@ -1,0 +1,28 @@
+@import "layout.css";
+@import "header.css";
+@import "main.css";
+@import "footer.css";
+@import "typography.css";
+@import "post.css";
+
+:root {
+    --accent-color: #B32A00;
+    --accent-hover-color: #FF511B;
+    --bg-color: #b8b894;
+    --text-color: #181818;
+    --line: 3px;
+    --padding: 24px;
+    --margin: 48px;
+    --border: solid var(--line) var(--text-color);
+}
+
+
+
+html {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+body {
+    margin: auto 0;
+}
